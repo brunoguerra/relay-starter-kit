@@ -5,6 +5,13 @@ export default class extends Relay.Route {
       query {
         viewer {
           ${Component.getFragment('viewer')},
+        }
+      }
+    `,
+    game: (Component) => Relay.QL`
+      query {
+        game {
+          ${Component.getFragment('game')},
         },
       }
     `,
