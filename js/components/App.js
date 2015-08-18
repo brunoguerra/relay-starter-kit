@@ -1,5 +1,7 @@
 import CheckHidingSpotForTreasureMutation from '../mutations/CheckHidingSpotForTreasureMutation'
 import ResetGameMutation from '../mutations/ResetGameMutation'
+import 'babel/polyfill';
+
 
 class App extends React.Component {
 
